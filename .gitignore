@@ -38,8 +38,9 @@ venvs/
 
 git_exclude/
 private/
-settings.*
-settings/
+#settings.*
+#settings/
+secret/
 *.db
 *.sqlite3*
 
