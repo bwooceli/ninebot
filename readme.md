@@ -1,7 +1,7 @@
-#ninebot
+# ninebot
 
-##Don't call me Radio!
+## Don't call me Radio!
 The project configuration lives in radio.  Don't call me Radio
 
-##Accord
-Which cord?  Discord?  
+## Accord
+Which cord?  Discord?  Live in one accord.
