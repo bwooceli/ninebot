@@ -44,12 +44,11 @@ This change will ONLY change your nickname on this server, not any other discord
 
 4) Not that it's a hard rule, but ideally this is limited to people that the majority of us know personally, and who we have a better-than-zero chance of seeing in the real world in the next couple of years.  I started this because getting friends together online has kind of been hard given that more and more people are boycotting Facebook and/or Twitter, and that even on those platforms it's hard to actually just talk because of the large audiences.  So you're more than welcome to invite people, but I'd like to keep it to former apt9 keyholders, halloween party goers (of any era), christmas gift-wrap throwers, and the like.
 
-This message will self-destruct in 30 seconds, but you can read it again by typing 
-> >>help
 """
 
         member = member or ctx.author
-        await ctx.send(f'No problemo {member.name}!  Here\'s some useful info to get started\n{onboarding}', delete_after=30)
+        await ctx.send(f'Ok, {member.name}, here\'s some useful info to get started\nThis message will self-destruct in 60 seconds, but you can read it again by typing \n> >>help\n{onboarding}',
+            delete_after=60)
         # else:
         #     await ctx.send('Hello {0.name}... This feels familiar.'.format(member))
         # self._last_member = member
